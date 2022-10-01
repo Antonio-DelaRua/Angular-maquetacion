@@ -12,6 +12,7 @@ import { GaleriaComponent } from './pages/galeria/galeria.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SuperDeportivosComponent } from './pages/super-deportivos/super-deportivos.component';
+import { ClasicosComponent } from './pages/clasicos/clasicos.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SuperDeportivosComponent } from './pages/super-deportivos/super-deporti
     NavbarComponent,
     FooterComponent,
     GaleriaComponent,
-    SuperDeportivosComponent
+    SuperDeportivosComponent,
+    ClasicosComponent
   ],
   imports: [
     BrowserModule,
