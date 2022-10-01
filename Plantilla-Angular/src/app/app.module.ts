@@ -10,6 +10,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GaleriaComponent } from './pages/galeria/galeria.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SuperDeportivosComponent } from './pages/super-deportivos/super-deportivos.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +22,15 @@ import { GaleriaComponent } from './pages/galeria/galeria.component';
     CreateCarComponent,
     NavbarComponent,
     FooterComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    SuperDeportivosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
