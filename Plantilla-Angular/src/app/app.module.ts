@@ -13,6 +13,10 @@ import { GaleriaComponent } from './pages/galeria/galeria.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SuperDeportivosComponent } from './pages/super-deportivos/super-deportivos.component';
 import { ClasicosComponent } from './pages/clasicos/clasicos.component';
+import { DeportivosComponent } from './pages/deportivos/deportivos.component';
+import { TuningComponent } from './pages/tuning/tuning.component';
+import { AboutComponent } from './pages/about/about.component';
+import { WikiComponent } from './pages/wiki/wiki.component';
 
 
 @NgModule({
@@ -25,7 +29,11 @@ import { ClasicosComponent } from './pages/clasicos/clasicos.component';
     FooterComponent,
     GaleriaComponent,
     SuperDeportivosComponent,
-    ClasicosComponent
+    ClasicosComponent,
+    DeportivosComponent,
+    TuningComponent,
+    AboutComponent,
+    WikiComponent
   ],
   imports: [
     BrowserModule,
